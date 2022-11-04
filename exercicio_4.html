@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<div id="totalmedia"></div>
+<body>
+    <script>
+        let nomeAluno = prompt("Digite o nome do aluno");
+        let nota1 = Number (prompt("Digite a primeira nota"));
+        let nota2 = Number (prompt("Digite a segunda nota"));
+        let nota3 = Number (prompt("Digite a terceira nota"));
+        let nomedisciplina = prompt("Digite o nome da disciplina");
+        let numeroturma = prompt("Digite o número da turma");
+        
+        let media = (Number +nota1 + nota2 +nota3/3);
+
+        document.getElementById("totalmedia").innerHTML = "Nome do Aluno: " + nomeAluno + "</br>Nota1: " + nota1 + "</br>Nota2: " + nota2 + "</br>Nota3: " + "</br>Nome da disciplina: " + nomedisciplina + "</br>Numero da turma: " + numeroturma + "</br>Total media: " + media;
+    </script>
+</body>
+</html>

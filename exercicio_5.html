@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+</head>
+<h1>Conversão da hora, minutos e segundos para segundos</h1>
+ <div id="Conversão"></div>
+<body>
+    <script>
+        let hora = prompt("Digite a hora");
+        let minutos = prompt("Digite os minutos");
+        let segundos = prompt("Digite os segundos");
+        let totalHora = (hora*3600);
+        let totalMinutos = (minutos*60);
+        
+
+        document.getElementById("Conversão").innerHTML = "Hora: " + totalHora + "</br>Minutos: " + totalMinutos + "</br>Segundos: " + segundos;
+    </script>
+</body>
+</html>
